@@ -22,7 +22,7 @@ const InstallingPage = () => {
 
       <h3>Step 2: Create a Next.js App</h3>
       <ul className={styles.list}>
-        <li>Next, I navigated to my "Lab 10" folder.</li>
+        <li>Next, I navigated to my &quot;Lab 10&quot; folder.</li>
         <li>
           Following the{" "}
           <a

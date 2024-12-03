@@ -9,13 +9,14 @@ const DifficultiesPage = () => {
       <h3 className={styles.heading3}>1. Understanding CSS Modules</h3>
       <ul className={styles.list}>
         <li>
-          I didn't fully understand how CSS Modules worked. I was used to
+          I didn&apos;t fully understand how CSS Modules worked. I was used to
           writing global styles, but CSS Modules scope styles locally to each
           component.
         </li>
         <li>
-          I also mistakenly tried to use tag selectors like `h2`, `h3`, and `p`,
-          which didn't work as expected in the module file.
+          I also mistakenly tried to use tag selectors like &quot;h2&quot;,
+          &quot;h3&quot;, and &quot;p&quot;, which didn&apos;t work as expected
+          in the module file.
         </li>
         <li>
           To fix this, I learned that I should use class names in CSS Modules
@@ -36,11 +37,11 @@ const DifficultiesPage = () => {
         </li>
         <li>
           In classic HTML and CSS, importing Google Fonts is pretty
-          straightforward, but in Next.js, it's a bit different. You have to be
-          mindful of performance, and simply adding a{" "}
+          straightforward, but in Next.js, it&apos;s a bit different. You have
+          to be mindful of performance, and simply adding a{" "}
           <code className={styles.code}>link</code> tag in the{" "}
-          <code className={styles.code}>Head</code> component isn't enough. It
-          has to be done in a more optimized way to avoid unnecessary
+          <code className={styles.code}>Head</code> component isn&apos;t enough.
+          It has to be done in a more optimized way to avoid unnecessary
           re-renders.
         </li>
         <li>
