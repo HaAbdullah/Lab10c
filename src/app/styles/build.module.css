@@ -1,0 +1,13 @@
+.main {
+  width: 100%;
+  box-sizing: border-box;
+  /* border: 2px solid gold; */
+}
+.list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.list li {
+  margin-bottom: 10px;
+}

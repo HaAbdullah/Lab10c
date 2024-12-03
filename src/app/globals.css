@@ -1,0 +1,47 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --font-inter: "Inter", sans-serif;
+    --font-roboto-mono: "Roboto Mono", monospace;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+h2 {
+  color: lightcoral;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
