@@ -4,19 +4,18 @@ import Image from "next/image";
 const DifficultiesPage = () => {
   return (
     <div className={styles.main}>
-      <h2 className={styles.heading2}>The Difficulties I Faced</h2>
+      <h2>The Difficulties I Faced</h2>
 
-      <h3 className={styles.heading3}>1. Understanding CSS Modules</h3>
-      <ul className={styles.list}>
+      <h3>1. Understanding CSS Modules</h3>
+      <ul>
         <li>
-          I didn&apos;t fully understand how CSS Modules worked. I was used to
+          I didn't fully understand how CSS Modules worked. I was used to
           writing global styles, but CSS Modules scope styles locally to each
           component.
         </li>
         <li>
-          I also mistakenly tried to use tag selectors like &quot;h2&quot;,
-          &quot;h3&quot;, and &quot;p&quot;, which didn&apos;t work as expected
-          in the module file.
+          I also mistakenly tried to use tag selectors like `h2`, `h3`, and `p`,
+          which didn't work as expected in the module file.
         </li>
         <li>
           To fix this, I learned that I should use class names in CSS Modules
@@ -29,20 +28,18 @@ const DifficultiesPage = () => {
         </li>
       </ul>
 
-      <h3 className={styles.heading3}>2. Using Google Fonts</h3>
-      <ul className={styles.list}>
+      <h3>2. Using Google Fonts</h3>
+      <ul>
         <li>
           Another difficulty I faced was integrating Google Fonts into my
           Next.js app.
         </li>
         <li>
           In classic HTML and CSS, importing Google Fonts is pretty
-          straightforward, but in Next.js, it&apos;s a bit different. You have
-          to be mindful of performance, and simply adding a{" "}
-          <code className={styles.code}>link</code> tag in the{" "}
-          <code className={styles.code}>Head</code> component isn&apos;t enough.
-          It has to be done in a more optimized way to avoid unnecessary
-          re-renders.
+          straightforward, but in Next.js, it's a bit different. You have to be
+          mindful of performance, and simply adding a <code>link</code> tag in
+          the <code>Head</code> component isn't enough. It has to be done in a
+          more optimized way to avoid unnecessary re-renders.
         </li>
         <li>
           I used the official{" "}
@@ -58,7 +55,7 @@ const DifficultiesPage = () => {
         <li>
           Combining this new knowledge with what I learned about CSS modules, I
           was able to import Google Fonts correctly by using the{" "}
-          <code className={styles.code}>next/font/google</code> package.
+          <code>next/font/google</code> package.
         </li>
         <Image
           src="/stylesjs.png"
@@ -77,8 +74,8 @@ const DifficultiesPage = () => {
         />
       </ul>
 
-      <h3 className={styles.heading3}>3. Learning React Props</h3>
-      <ul className={styles.list}>
+      <h3>3. Learning React Props</h3>
+      <ul>
         <li>
           One aspect of React that I wanted to learn was Props, which allow you
           to send data from one component to another.

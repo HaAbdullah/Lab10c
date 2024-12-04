@@ -1,4 +1,5 @@
 import styles from "../styles/build.module.css";
+import Image from "next/image";
 
 const BuildingPage = () => {
   return (
@@ -12,7 +13,7 @@ const BuildingPage = () => {
           <a href="https://nextjs.org/docs/app/getting-started/project-structure">
             official Next.js documentation
           </a>
-          to familiarize myself with the project structure, routing, and
+          to learn about how Next.js does project structure, routing, and
           components.
         </li>
       </ul>
@@ -20,13 +21,13 @@ const BuildingPage = () => {
       <h3>Step 2: Clean Up Unnecessary Files</h3>
       <ul className={styles.list}>
         <li>
-          I removed unnecessary files such as <code>pages.js</code> (similar to{" "}
-          <code>index.html</code>), <code>pages.module.css</code>, and{" "}
-          <code>globals.css</code> to simplify the project.
+          I removed the files that come with creating a Next.js app:{" "}
+          <code>pages.js</code> (similar to <code>index.html</code>),{" "}
+          <code>pages.module.css</code>, and <code>globals.css</code>.
         </li>
       </ul>
 
-      <h3>Step 3: Create Components and Organize Styles</h3>
+      <h3>Step 3: Create Components</h3>
       <ul className={styles.list}>
         <li>
           After cleaning up the code in <code>pages.js</code>, I created a new
@@ -38,7 +39,7 @@ const BuildingPage = () => {
           <code>Installing.js</code>.
         </li>
         <li>
-          Next, I created a "styles" folder and added the corresponding styles:{" "}
+          I then created a "styles" folder and added the style files:{" "}
           <code>building.module.css</code>, <code>difficulties.module.css</code>
           , and <code>installing.module.css</code>.
         </li>
@@ -46,6 +47,7 @@ const BuildingPage = () => {
           Finally, I imported all the components into <code>pages.js</code> to
           bring everything together.
         </li>
+        <img src="imports.png" />
       </ul>
     </div>
   );
