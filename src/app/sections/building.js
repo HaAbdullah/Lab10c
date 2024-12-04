@@ -4,7 +4,7 @@ import Image from "next/image";
 const BuildingPage = () => {
   return (
     <div className={styles.main}>
-      <h2>Building a Next.js App: My Process</h2>
+      <h2>How I Built the App</h2>
 
       <h3>Step 1: Explore Documentation and Understand Key Concepts</h3>
       <ul className={styles.list}>
