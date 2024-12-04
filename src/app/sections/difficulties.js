@@ -7,7 +7,7 @@ const DifficultiesPage = () => {
       <h2>The Difficulties I Faced</h2>
 
       <h3>1. Understanding CSS Modules</h3>
-      <ul>
+      <ul className={styles.list}>
         <li>
           I didn't fully understand how CSS Modules worked. I was used to
           writing global styles, but CSS Modules scope styles locally to each
@@ -29,7 +29,7 @@ const DifficultiesPage = () => {
       </ul>
 
       <h3>2. Using Google Fonts</h3>
-      <ul>
+      <ul className={styles.list}>
         <li>
           Another difficulty I faced was integrating Google Fonts into my
           Next.js app.
@@ -75,7 +75,7 @@ const DifficultiesPage = () => {
       </ul>
 
       <h3>3. Learning React Props</h3>
-      <ul>
+      <ul className={styles.list}>
         <li>
           One aspect of React that I wanted to learn was Props, which allow you
           to send data from one component to another.
